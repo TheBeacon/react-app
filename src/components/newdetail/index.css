@@ -1,0 +1,40 @@
+.detail img{
+    width: 7.4rem;
+}
+.detail .back{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.detail .icon-back{
+    font-size: 0.6rem;
+    color: aliceblue;
+}
+.detail p{
+    line-height: 0.5rem;
+    font-size: 0.4rem;
+    text-align: left;
+}
+.btn{
+    font-size: 0.3rem !important;
+    width: 6rem;
+    height: 0.88rem;
+    padding: .1rem 0;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: .18rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #ff6700;
+    margin: 0.5rem 0 0 0.7rem;
+}

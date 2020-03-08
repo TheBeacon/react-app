@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  font-family: Helvetica Neue,
+    Tahoma,
+    Arial,
+    PingFangSC-Regular,
+    Hiragino Sans GB,
+    Microsoft Yahei,
+    sans-serif;
+  padding-bottom: 52px;
+  /* overflow: hidden; */
 }
 
 .App-logo {
@@ -32,7 +41,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* 尾部导航 */
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 52px;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  z-index: 99;
+}
+
+.active {
+  color: red;
+}
+
+.footer li {
+  padding-top: 10px
+}
+
+.footer li p {
+  margin-top: 5px;
 }

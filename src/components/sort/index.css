@@ -1,0 +1,23 @@
+
+.sort-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sort-aside {
+    padding: 1rem 0;
+    width: 30%;
+    float: left;
+}
+
+.sort-aside li {
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.sort-right {
+    margin-top: 1rem;
+    float: right;
+    width: 70%;
+}

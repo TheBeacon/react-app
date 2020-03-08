@@ -1,0 +1,32 @@
+.my {
+    height: 1.6rem;
+    background: url(/static/img/bg.63c8e19851.png) center 0 #f37d0f;
+}
+
+.my p {
+    color: #fff;
+    font-size: 0.4rem;
+    line-height: 1.6rem;
+}
+
+.my .btn1 {
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 0.3rem !important;
+    width: 6rem;
+    height: 0.88rem;
+    padding: .1rem 0;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: .18rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #ff6700;
+    margin: 0.5rem 0 0 0.7rem;
+}

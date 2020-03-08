@@ -1,0 +1,21 @@
+.new-header-img img{
+    height: 2rem;
+}
+
+.new-proList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-proList li{
+    width: 33.3%;
+    margin: 0.4rem 0;
+    font-size: 0.25rem;
+}
+.new-proList li p{
+    color: black;
+    line-height: 0.4rem;
+}
+.new-proList img{
+    width: 1rem;
+}

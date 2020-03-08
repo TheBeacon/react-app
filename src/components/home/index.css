@@ -1,0 +1,102 @@
+#home {
+    padding-top: 1.5rem;
+    overflow-y: auto;
+}
+
+.header {
+    height: 1.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #f2f2f2;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2);
+    z-index: 99;
+}
+
+.search {
+    overflow: hidden;
+}
+
+.search img {
+    width: 0.48rem;
+    margin: 0.25rem 0.3rem 0 -0.7rem;
+}
+
+.search input {
+    width: 5.2rem;
+    height: 0.62rem;
+    margin-top: 0.2rem;
+    text-indent: 0.4rem;
+    font-size: 0.3rem;
+}
+
+.search .icon-gerenzhongxin1 {
+    position: absolute;
+    font-size: 0.4rem;
+    top: 0.3rem;
+    right: 0.3rem;
+}
+
+.main {
+    overflow-y: auto;
+}
+
+.list1 {
+    height: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list1 li {
+    float: left;
+    line-height: 0.7rem;
+}
+
+.list1 li:hover {
+    color: #ed5b00;
+    border-bottom: 0.03rem solid #ed5b00;
+}
+
+.am-wingblank.am-wingblank-lg {
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list li img {
+    width: 1.5rem;
+    height: 1.52rem;
+}
+.multi-pro{
+    overflow: hidden;
+}
+.multi-pro img:nth-child(1) {
+    float: left;
+    width: 3.58rem;
+    height: 5.08rem;
+}
+
+.multi-pro img:nth-child(2) {
+    float: right;
+    width: 3.58rem;
+    height: 2.52rem;
+}
+
+.multi-pro img:nth-child(3) {
+    float: right;
+    width: 3.58rem;
+    height: 2.52rem;
+}
+.img1{
+    margin: 0.1rem 0 0 0.1rem;
+}
+.img1 img{
+    height: 3rem;
+}
+
+.culling img{
+    height: 4.6rem;
+}
